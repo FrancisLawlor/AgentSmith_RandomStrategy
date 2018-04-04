@@ -21,7 +21,7 @@ public class ImplementedStrategy implements IStrategy {
 		}
 	}
 	
-	public int generateChoice(HashMap<String, Object> strategyResources) {
+	public int generateChoice(HashMap<String, String> strategyResources) {
 		return (int) (Math.random() * this.numberOfChoices);
 	}
 
